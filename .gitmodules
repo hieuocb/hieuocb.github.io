@@ -1,3 +1,8 @@
 [submodule "src"]
 	path = src
 	url = https://github.com/hieuocb/blog-hieuocb.git
+
+
+node_modules/*
+node_modules
+/node_modules
