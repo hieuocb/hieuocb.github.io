@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-//const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require('path');
 
 module.exports = {
@@ -8,9 +8,22 @@ module.exports = {
   devtool: "nosources-source-map",
   module: {
     rules: [
+      // {
+      //   test: /\.html$/,
+      //   type: "asset/resource",
+      //   generator: {
+      //     filename: "[name][ext]",
+      //   },
+      // },
       {
         test: /\.html$/i,
         loader: "html-loader",
+        options: {
+          minimize: {
+            removeComments: false,
+            collapseWhitespace: false,
+          },
+        },
       },
       {
         //test: /\.tsx?$/,
@@ -56,7 +69,13 @@ module.exports = {
     path: path.resolve(__dirname, "./docs"),
   },
   plugins: [
-    new HtmlWebpackPlugin({ title: "Hieu Ocb" }),
-    //new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin(),
+    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({ 
+      title: "Abount Hieu Ocb",
+      filename: 'about.html',
+      template: "src/assets/about.html"
+    }),
+
   ],
 };
