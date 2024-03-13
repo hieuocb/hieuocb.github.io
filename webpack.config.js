@@ -13,6 +13,7 @@ module.exports = {
   entry: {
     homepage: ["./src/app.ts"],
     //aboutpage: ['./src/about.js']
+    experience: ["./src/experience.ts"]
   },
   //devtool: "nosources-source-map",
   devtool: 'inline-source-map',
