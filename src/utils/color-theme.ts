@@ -22,68 +22,44 @@ if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localS
 var themeToggleBtn = document.getElementById('theme-toggle');
 var themeToggleBtnMobile = document.getElementById('theme-toggle-mobile');
 
-themeToggleBtn.addEventListener('click', function() {
+const changeDarkTheme = (isDark: boolean) => {
+    if (isDark) {
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('color-theme', 'dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('color-theme', 'light');
+    }
+}
+
+themeToggleBtn.addEventListener('click', function(e: MouseEvent) {
+    e.preventDefault();
+
     // toggle icons inside button
     themeToggleDarkIcon.classList.toggle('hidden');
     themeToggleLightIcon.classList.toggle('hidden');
 
     // if set via local storage previously
     if (localStorage.getItem('color-theme')) {
-        if (localStorage.getItem('color-theme') === 'light') {
-            document.documentElement.classList.add('dark');
-            localStorage.setItem('color-theme', 'dark');
-        } else {
-            document.documentElement.classList.remove('dark');
-            localStorage.setItem('color-theme', 'light');
-        }
-
+        changeDarkTheme(localStorage.getItem('color-theme') === 'light');
     // if NOT set via local storage previously
     } else {
-        if (document.documentElement.classList.contains('dark')) {
-            document.documentElement.classList.remove('dark');
-            localStorage.setItem('color-theme', 'light');
-        } else {
-            document.documentElement.classList.add('dark');
-            localStorage.setItem('color-theme', 'dark');
-        }
+        changeDarkTheme(!document.documentElement.classList.contains('dark'));
     }
 });
 
-themeToggleBtnMobile.addEventListener('click', function() {
+themeToggleBtnMobile.addEventListener('click', function(e: MouseEvent) {
+    e.preventDefault();
     // toggle icons inside button
     themeToggleDarkIconMobile.classList.toggle('hidden');
     themeToggleLightIconMobile.classList.toggle('hidden');
 
     // if set via local storage previously
     if (localStorage.getItem('color-theme')) {
-        if (localStorage.getItem('color-theme') === 'light') {
-            document.documentElement.classList.add('dark');
-            localStorage.setItem('color-theme', 'dark');
-        } else {
-            document.documentElement.classList.remove('dark');
-            localStorage.setItem('color-theme', 'light');
-        }
-
+        changeDarkTheme(localStorage.getItem('color-theme') === 'light');
     // if NOT set via local storage previously
     } else {
-        if (document.documentElement.classList.contains('dark')) {
-            document.documentElement.classList.remove('dark');
-            localStorage.setItem('color-theme', 'light');
-        } else {
-            document.documentElement.classList.add('dark');
-            localStorage.setItem('color-theme', 'dark');
-        }
+        changeDarkTheme(!document.documentElement.classList.contains('dark'));
     }
 });
 
-var navbarMobile = document.getElementById("navbar-mobile");
-
-var btnCloseNabarMobile = document.getElementById("btn-close-navbar-mobile");
-btnCloseNabarMobile.addEventListener("click", function() {
-    navbarMobile.classList.add('hidden');
-});
-
-var btnOpenNavbarMobile = document.getElementById("btn-open-navbar-mobile");
-btnOpenNavbarMobile.addEventListener("click", function() {
-    navbarMobile.classList.remove('hidden');
-})
