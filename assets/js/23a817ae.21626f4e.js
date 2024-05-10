@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhoclamdev=self.webpackChunkhoclamdev||[]).push([[8283],{2197:a=>{a.exports=JSON.parse('{"tag":{"label":"may-hoc","permalink":"/tags/may-hoc","allTagsPath":"/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/tags/may-hoc","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

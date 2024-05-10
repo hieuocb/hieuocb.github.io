@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhoclamdev=self.webpackChunkhoclamdev||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/","blogTitle":"Blog"}')}}]);

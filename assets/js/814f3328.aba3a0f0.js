@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhoclamdev=self.webpackChunkhoclamdev||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"B\xe0i vi\u1ebft","items":[{"title":"T\u1ea5n c\xf4ng \u0111\u1ed1i kh\xe1ng","permalink":"/tan-cong-doi-khang","unlisted":false},{"title":"Gi\u1edbi thi\u1ec7u","permalink":"/gioi-thieu-1","unlisted":false}]}')}}]);

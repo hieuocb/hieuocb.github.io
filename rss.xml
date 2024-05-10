@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Học làm dev Blog</title>
+        <link>https://your-docusaurus-site.example.com/</link>
+        <description>Học làm dev Blog</description>
+        <lastBuildDate>Fri, 10 May 2024 08:16:58 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <copyright>Copyright © 2024 Hoclamdev, Inc.</copyright>
+        <item>
+            <title><![CDATA[Tấn công đối kháng]]></title>
+            <link>https://your-docusaurus-site.example.com/tan-cong-doi-khang</link>
+            <guid>https://your-docusaurus-site.example.com/tan-cong-doi-khang</guid>
+            <pubDate>Fri, 10 May 2024 08:16:58 GMT</pubDate>
+            <category>tan-cong-doi-khang</category>
+            <category>may-hoc</category>
+            <category>machine-learning</category>
+        </item>
+        <item>
+            <title><![CDATA[Giới thiệu]]></title>
+            <link>https://your-docusaurus-site.example.com/gioi-thieu-1</link>
+            <guid>https://your-docusaurus-site.example.com/gioi-thieu-1</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <category>gioi-thieu</category>
+        </item>
+    </channel>
+</rss>
