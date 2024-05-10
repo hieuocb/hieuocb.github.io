@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/</id>
+    <id>https://hoclamdev.com/</id>
     <title>Học làm dev Blog</title>
     <updated>2024-05-10T08:16:58.731Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/"/>
+    <link rel="alternate" href="https://hoclamdev.com/"/>
     <subtitle>Học làm dev Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
+    <icon>https://hoclamdev.com/img/favicon.ico</icon>
     <rights>Copyright © 2024 Hoclamdev, Inc.</rights>
     <entry>
         <title type="html"><![CDATA[Tấn công đối kháng]]></title>
-        <id>https://your-docusaurus-site.example.com/tan-cong-doi-khang</id>
-        <link href="https://your-docusaurus-site.example.com/tan-cong-doi-khang"/>
+        <id>https://hoclamdev.com/tan-cong-doi-khang</id>
+        <link href="https://hoclamdev.com/tan-cong-doi-khang"/>
         <updated>2024-05-10T08:16:58.731Z</updated>
         <author>
             <name>Noka Nguyen</name>
@@ -23,8 +23,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Giới thiệu]]></title>
-        <id>https://your-docusaurus-site.example.com/gioi-thieu-1</id>
-        <link href="https://your-docusaurus-site.example.com/gioi-thieu-1"/>
+        <id>https://hoclamdev.com/gioi-thieu-1</id>
+        <link href="https://hoclamdev.com/gioi-thieu-1"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <author>
             <name>Noka Nguyen</name>

@@ -1,13 +1,13 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Học làm dev Blog",
-    "home_page_url": "https://your-docusaurus-site.example.com/",
+    "home_page_url": "https://hoclamdev.com/",
     "description": "Học làm dev Blog",
     "items": [
         {
-            "id": "https://your-docusaurus-site.example.com/tan-cong-doi-khang",
+            "id": "https://hoclamdev.com/tan-cong-doi-khang",
             "content_html": "",
-            "url": "https://your-docusaurus-site.example.com/tan-cong-doi-khang",
+            "url": "https://hoclamdev.com/tan-cong-doi-khang",
             "title": "Tấn công đối kháng",
             "date_modified": "2024-05-10T08:16:58.731Z",
             "author": {
@@ -21,9 +21,9 @@
             ]
         },
         {
-            "id": "https://your-docusaurus-site.example.com/gioi-thieu-1",
+            "id": "https://hoclamdev.com/gioi-thieu-1",
             "content_html": "",
-            "url": "https://your-docusaurus-site.example.com/gioi-thieu-1",
+            "url": "https://hoclamdev.com/gioi-thieu-1",
             "title": "Giới thiệu",
             "date_modified": "2021-08-26T00:00:00.000Z",
             "author": {
